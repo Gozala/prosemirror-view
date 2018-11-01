@@ -1,11 +1,11 @@
-import {Fragment, DOMParser} from "prosemirror-model"
-import {Selection, TextSelection} from "prosemirror-state"
-import {Mapping} from "prosemirror-transform"
+import {Fragment, DOMParser} from "../../prosemirror-model/src/index.js"
+import {Selection, TextSelection} from "../../prosemirror-state/src/index.js"
+import {Mapping} from "../../prosemirror-transform/src/index.js"
 
-import {TrackMappings} from "./trackmappings"
-import {selectionBetween} from "./selection"
-import {selectionCollapsed} from "./dom"
-import browser from "./browser"
+import {TrackMappings} from "./trackmappings.js"
+import {selectionBetween} from "./selection.js"
+import {selectionCollapsed} from "./dom.js"
+import browser from "./browser.js"
 
 export class DOMChange {
   constructor(view, composing) {

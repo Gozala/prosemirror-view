@@ -1,7 +1,7 @@
-import {DOMSerializer, Fragment, Mark} from "prosemirror-model"
+import {DOMSerializer, Fragment, Mark} from "../../prosemirror-model/src/index.js"
 
-import {domIndex, isEquivalentPosition} from "./dom"
-import browser from "./browser"
+import {domIndex, isEquivalentPosition} from "./dom.js"
+import browser from "./browser.js"
 
 // NodeView:: interface
 //

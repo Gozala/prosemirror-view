@@ -1,7 +1,7 @@
-import {TextSelection, NodeSelection} from "prosemirror-state"
+import {TextSelection, NodeSelection} from "../../prosemirror-state/src/index.js"
 
-import browser from "./browser"
-import {selectionCollapsed} from "./dom"
+import browser from "./browser.js"
+import {selectionCollapsed} from "./dom.js"
 
 // Track the state of the DOM selection, creating transactions to
 // update the selection state when necessary.

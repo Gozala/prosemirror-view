@@ -1,4 +1,4 @@
-import {textRange, parentNode} from "./dom"
+import {textRange, parentNode} from "./dom.js"
 
 function windowRect(win) {
   return {left: 0, right: win.innerWidth,

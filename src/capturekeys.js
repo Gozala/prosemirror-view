@@ -1,6 +1,6 @@
-import {Selection, NodeSelection, TextSelection} from "prosemirror-state"
-import browser from "./browser"
-import {domIndex, selectionCollapsed} from "./dom"
+import {Selection, NodeSelection, TextSelection} from "../../prosemirror-state/src/index.js"
+import browser from "./browser.js"
+import {domIndex, selectionCollapsed} from "./dom.js"
 
 function moveSelectionBlock(state, dir) {
   let {$anchor, $head} = state.selection

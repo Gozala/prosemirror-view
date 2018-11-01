@@ -1,6 +1,6 @@
-import browser from "./browser"
-import {DOMChange} from "./domchange"
-import {domIndex} from "./dom"
+import browser from "./browser.js"
+import {DOMChange} from "./domchange.js"
+import {domIndex} from "./dom.js"
 
 const observeOptions = {childList: true, characterData: true, attributes: true, subtree: true, characterDataOldValue: true}
 // IE11 has very broken mutation observers, so we also listen to DOMCharacterDataModified

@@ -1,5 +1,5 @@
-import {EditorState} from "prosemirror-state"
-import {Mapping} from "prosemirror-transform"
+import {EditorState} from "../../prosemirror-state/src/index.js"
+import {Mapping} from "../../prosemirror-transform/src/index.js"
 
 class TrackedRecord {
   constructor(prev, mapping, state) {
