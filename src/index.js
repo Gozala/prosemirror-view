@@ -2,7 +2,7 @@ import {Mark} from "../../prosemirror-model/src/index.js"
 import {NodeSelection} from "../../prosemirror-state/src/index.js"
 
 import {scrollRectIntoView, posAtCoords, coordsAtPos, endOfTextblock, storeScrollPos, resetScrollPos} from "./domcoords.js"
-import {docViewDesc} from "./viewdesc"
+import {docViewDesc} from "./viewdesc.js"
 import {initInput, destroyInput, dispatchEvent, ensureListeners} from "./input.js"
 import {SelectionReader, selectionToDOM, needsCursorWrapper} from "./selection.js"
 import {Decoration, viewDecorations} from "./decoration.js"
