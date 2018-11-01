@@ -21,7 +21,7 @@ declare export class EditorView {
   state: EditorState;
 
   constructor(
-    place: Element | (Element => void) | { mount: Element },
+    place: Element | ShadowRoot | (Element => void) | { mount: Element },
     DirectEditorProps
   ): void;
 
